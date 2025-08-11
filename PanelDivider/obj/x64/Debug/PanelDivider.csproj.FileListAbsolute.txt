@@ -1,0 +1,12 @@
+D:\Study\BIM\AI\Code\Try8_PanelDivider\PanelDivider\PanelDivider\bin\x64\Debug\PanelDivider.dll
+D:\Study\BIM\AI\Code\Try8_PanelDivider\PanelDivider\PanelDivider\bin\x64\Debug\PanelDivider.pdb
+D:\Study\BIM\AI\Code\Try8_PanelDivider\PanelDivider\PanelDivider\obj\x64\Debug\PanelDivider.csproj.AssemblyReference.cache
+D:\Study\BIM\AI\Code\Try8_PanelDivider\PanelDivider\PanelDivider\obj\x64\Debug\PanelDivider.csproj.CoreCompileInputs.cache
+D:\Study\BIM\AI\Code\Try8_PanelDivider\PanelDivider\PanelDivider\obj\x64\Debug\PanelDivider.dll
+D:\Study\BIM\AI\Code\Try8_PanelDivider\PanelDivider\PanelDivider\obj\x64\Debug\PanelDivider.pdb
+C:\CODE\Try8_PanelDivider\PanelDivider\PanelDivider\bin\x64\Debug\PanelDivider.dll
+C:\CODE\Try8_PanelDivider\PanelDivider\PanelDivider\bin\x64\Debug\PanelDivider.pdb
+C:\CODE\Try8_PanelDivider\PanelDivider\PanelDivider\obj\x64\Debug\PanelDivider.csproj.AssemblyReference.cache
+C:\CODE\Try8_PanelDivider\PanelDivider\PanelDivider\obj\x64\Debug\PanelDivider.csproj.CoreCompileInputs.cache
+C:\CODE\Try8_PanelDivider\PanelDivider\PanelDivider\obj\x64\Debug\PanelDivider.dll
+C:\CODE\Try8_PanelDivider\PanelDivider\PanelDivider\obj\x64\Debug\PanelDivider.pdb

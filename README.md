@@ -35,34 +35,23 @@ The script provides a simple workflow within Revit:
 
 This script was developed with significant assistance from AI. The process, which could be described as **"Vibecoding,"** involved translating a clear functional vision and complex geometric logic into robust C# code through collaboration with an AI partner. The AI helped structure the code, implement complex mathematical functions, and debug the workflow, acting as a powerful tool to bring the initial idea to life.
 
-### Installation & Setup
+### Installation
 
-To use this script, you need to load it as a Revit Add-in.
+There are two ways to install this add-in:
 
-1.  **Compile the Code:** Open the project in Visual Studio 2022 and build the solution. This will create a `PanelDivider.dll` file in the `bin/Debug` or `bin/Release` folder.
-2.  **Create a Manifest File:** Create a file named `PanelDivider.addin` in Revit's add-in directory (`%appdata%\Autodesk\Revit\Addins\2023`). Paste the following into it, making sure the `<Assembly>` path points to your `.dll` file:
+#### Option 1: Easy Installer (Recommended)
 
-    ```xml
-    <?xml version="1.0" encoding="utf-8"?>
-    <RevitAddIns>
-      <AddIn Type="Command">
-        <Name>Divide Analytical Panels</Name>
-        <FullClassName>PanelDivider.DivideAnalyticalPanels</FullClassName>
-        <Text>Divide Analytical Panels</Text>
-        <Description>Splits analytical panels using other panels as cutting planes.</Description>
-        <VisibilityMode>AlwaysVisible</VisibilityMode>
-        <Assembly>"C:\Path\To\Your\Project\bin\Debug\PanelDivider.dll"</Assembly>
-        <AddInId>{GENERATED-GUID-HERE}</AddInId>
-        <VendorId>YourName</VendorId>
-        <VendorDescription>Your Company or Website</VendorDescription>
-      </AddIn>
-    </RevitAddIns>
-    ```
-    *   **Important:** Replace `"C:\Path\To\Your\Project\bin\Debug\PanelDivider.dll"` with the actual path to your DLL.
-    *   You should also generate a new GUID (you can do this in Visual Studio via `Tools > Create GUID`) and paste it into the `<AddInId>` field.
+1.  Go to the [**Releases Page**](https://github.com/Vovenzza/Revit-Panel_Divider/releases).
+2.  Download the `PanelDivider-Installer.exe` file from the latest release.
+3.  Run the installer. It will automatically copy the necessary files to your Revit add-ins folder.
 
-3.  **Run Revit:** Start Revit 2023, and the command should appear in your "Add-Ins" tab.
+#### Option 2: Manual Installation
 
+If you prefer to install it manually:
+
+1.  **Compile the Code:** Open the project in Visual Studio 2022 and build the solution. This will create a `PanelDivider.dll` file.
+2.  **Create a Manifest File:** Create a file named `PanelDivider.addin` in Revit's add-in directory (`%appdata%\Autodesk\Revit\Addins\2023`).
+3.  Follow the rest of the manual setup guide.
 ---
 
 **Disclaimer:** This is a utility script. Always back up your Revit models before running commands that modify geometry. Use at your own risk.

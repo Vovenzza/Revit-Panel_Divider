@@ -2,7 +2,7 @@
 
 Autodesk Revit 2023 add-in designed to split analytical panels using other panels as cutting guides. This tool is perfect for structural engineers and BIM modelers who need to break down large analytical surfaces into smaller, constructible panels while preserving important data.
 
-![https://github.com/Vovenzza/Revit-Panel_Divider/blob/956d967507b7dff7ec5459dcf7fd343481b779ad/Revit_NWifBwiRWs-ezgif.com-optimize.gif]
+![Demonstration](https://github.com/Vovenzza/Revit-Panel_Divider/blob/956d967507b7dff7ec5459dcf7fd343481b779ad/Revit_NWifBwiRWs-ezgif.com-optimize.gif)
 ---
 
 ### What It Does
